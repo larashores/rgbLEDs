@@ -124,7 +124,7 @@ class BeatDetect(tk.Frame):
         self.keep_amount = 10
         self.percent = .5
         self.wait_time = .5
-        ttk.Label(self, text='Beat Detection', style='Subtitle.TLabel').pack(fill=X)
+        ttk.Label(self, text='Beat Detection', style='Subtitle.TLabel').pack()
         # ------Setting up sliders---------
         top_group = ttk.Frame(self)
         top_group.pack(expand=YES, fill=BOTH)
